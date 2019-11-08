@@ -1,0 +1,129 @@
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.content {
+    height: 150px;
+}
+
+.ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui) {
+    color: greenyellow;
+}
+
+.project-image-overlay {
+    background-color: grey;
+    color: greenyellow;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.project-image-overlay:hover {
+    opacity: 0.8;
+}
+
+.projectInfo {
+    padding: 20px;
+}
+
+.menu {
+    opacity: 0.8;
+}
+
+.overlay-button {
+    background-color: greenyellow;
+    color: grey;
+}
+
+.overlayModal {
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    border: solid greenyellow;
+    position: fixed;
+    z-index: 99;
+    top: 25%;
+    background-color: darkgrey;
+    padding: 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlayCloseButton {
+    padding: 3px 8px;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    color: greenyellow;
+    text-align: center;
+}
+
+
+.footer i {
+    margin: 0 .5em;
+    transition: color .3s;
+    color: greenyellow;
+    margin: 10px;
+}
+
+.footer i:hover {
+    color: lightgrey;
+    transition: color .3s;
+}
+
+.landing {
+    height: 700px;;
+    background-image: url('/images/landing.jpg');
+    background-size: cover;
+    height: 100vh;
+    min-height: 200px;
+}
+
+.contact-icons i {
+    font-size: 100px;
+    color: greenyellow;
+}
+
+.grey-background {
+    background-color: #EBF7EB;
+    border: 20px solid #EBF7EB;
+}
+.white-background{
+    background-color: white;
+    border: 20px solid white;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.massive.menu {
+        font-size: 60%;
+    }
+}
