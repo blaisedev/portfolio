@@ -14,6 +14,14 @@ class Overlay extends Component {
                         <header><h2>{this.props.projectData.title}</h2></header>
                         <p>{this.props.projectData.about}</p>
                         </div>
+                        <div>
+                            <a href={this.props.projectData.github} target="_blank">
+                                <button>Click for code</button>
+                            </a>
+                            <a href={this.props.projectData.appLink} target="_blank">
+                                <button>Click for live App</button>
+                            </a>
+                        </div>
                     </div>
                     <div className="column">
                     <div className="technologies">
@@ -29,12 +37,15 @@ class Overlay extends Component {
                     </div>
                 </div>
                 <div>
-                    <a href={this.props.projectData.github} target="_blank">
-                        <button>Click for code</button>
-                    </a>
-                    <a href={this.props.projectData.appLink} target="_blank">
-                        <button>Click for live App</button>
-                    </a>
+                    <div className="ui buttons">
+                        <a href={this.props.projectData.github} target="_blank">
+                            <button  style={{backgroundColor: "lightyellow", color: "black"}} className="ui button">Click for code</button>
+                        </a>
+                        <div className="or"></div>
+                        <a href={this.props.projectData.appLink} target="_blank">
+                            <button style={{color: "black"}}className="ui button">Click for live App</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         );

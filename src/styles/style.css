@@ -65,7 +65,7 @@
     position: fixed;
     z-index: 99;
     top: 25%;
-    background-color: lightgray;
+    background: linear-gradient(to right, lightgray 48%, lightyellow 52%);
     padding: 10px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -80,8 +80,8 @@
     height: 30px;
     font-weight: bold;
     align-self: flex-end;
-    background-color: lightgray;
-    color: yellowgreen;
+    background-color: lightyellow;
+    color: gray;
 }
 
 
