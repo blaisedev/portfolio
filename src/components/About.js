@@ -3,7 +3,7 @@ import '../styles/style.css';
 
 const About = () => {
     return (
-        <div className="grey-background">
+        <div className="white-background">
         <div className="ui container" id="about">
 
             <header style={{marginBottom: '20px'}}>
@@ -29,6 +29,7 @@ const About = () => {
                 <header style={{marginTop: "20px", marginBottom: "20px"}}>
                     <h2>Skills</h2>
                 </header>
+
                 <div className="column">
                     <table className="ui very compact table">
                         <thead>

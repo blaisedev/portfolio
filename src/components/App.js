@@ -15,9 +15,9 @@ const App = () => {
                 <BrowserRouter>
                     <Nav/>
                     <Landing/>
-                    <About/>
                     <Projects/>
                     <Courses/>
+                    <About/>
                     <Contact/>
                     <Footer/>
                 </BrowserRouter>

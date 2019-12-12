@@ -12,7 +12,12 @@ const projectDetails = {
                 "Two players can play 21 with a winner decided by one going bust",
             github: "https://github.com/blaisedev/twenty-one",
             appLink: "https://blaisedev-twenty-one.herokuapp.com/",
-            technologies: ['JavaScript', 'HTML', 'CSS'],
+            technologies: [
+                {title: 'Javascript', icon : 'devicon-javascript-plain colored'},
+                {title: 'HTML', icon : 'devicon-html5-plain colored'},
+                {title: 'CSS', icon : 'devicon-css3-plain colored'},
+                {title: 'Heroku', icon : 'devicon-heroku-original-wordmark colored'}
+                ],
             id: 1
         },
         {
@@ -23,7 +28,12 @@ const projectDetails = {
                 ". Timetable is an application where you can create a color coded weekly timetable",
             github: "https://github.com/blaisedev/timetable",
             appLink: "https://blaisedev-timetable.herokuapp.com/",
-            technologies: ['JavaScript', 'HTML', 'CSS'],
+            technologies: [
+                {title: 'Javascript', icon : 'devicon-javascript-plain colored'},
+                {title: 'HTML', icon : 'devicon-html5-plain colored'},
+                {title: 'CSS', icon : 'devicon-css3-plain colored'},
+                {title: 'Heroku', icon : 'devicon-heroku-original-wordmark colored'}
+            ],
             id: 2
         },
         {
@@ -33,13 +43,19 @@ const projectDetails = {
             about: "React application that provides details about my work history, courses i am currently enrolled in, my personal projects and Resume.",
             github: "https://github.com/blaisedev/react-ui",
             appLink: "https://blaisedev-timetable.herokuapp.com/",
-            technologies: ['React', 'React-Router', 'CSS', 'JSX'],
+            technologies: [
+                {title: 'React', icon : 'devicon-react-original colored'},
+                {title: 'React-Router', icon : 'devicon-react-original colored'},
+                {title: 'JSX', icon : 'devicon-react-original colored'},
+                {title: 'CSS', icon : 'devicon-css3-plain colored'},
+                {title: 'Heroku', icon : 'devicon-heroku-original-wordmark colored'}
+            ],
             id: 3
         },
         {
-            image: "/images/twenty-one.jpg",
-            title: "Complete Java App",
-            description: "Jonas Schmedtmann, Web Developer, Designer, and Teacher",
+            image: "/images/microservices.jpg",
+            title: "Microservices",
+            description: "Microservices project with config server and gateway",
             id: 4
         },
     ]

@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/style.css';
 
-const Courses = () => {
+const Contact = () => {
     return (
 
+        <div className="grey-background">
         <div className="ui container" id="contact">
             <header>
                 <h2>Contact</h2>
@@ -29,7 +30,8 @@ const Courses = () => {
                 </div>
             </div>
         </div>
+        </div>
     );
 };
 
-export default Courses;
+export default Contact;

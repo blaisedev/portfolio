@@ -12,28 +12,29 @@ class Overlay extends Component {
                     <div className="column">
                         <div className="projectInfo">
                         <header><h2>{this.props.projectData.title}</h2></header>
-                        <img src={this.props.projectData.image}/>
                         <p>{this.props.projectData.about}</p>
-                        <div>
-                            <a href={this.props.projectData.github} target="_blank">
-                            <button>Click for code</button>
-                            </a>
-                            <a href={this.props.projectData.appLink} target="_blank">
-                            <button>Click for live App</button>
-                            </a>
-                        </div>
                         </div>
                     </div>
-                    <div className="column technologies">
+                    <div className="column">
+                    <div className="technologies">
                         <header><h2>Technologies Used</h2></header>
                         <div>
                             <ul>
                                 {technologies.map((item) => (
-                                    <li>{item}</li>
+                                    <li style={{ fontSize: "30px"}}>{item.title}<i className={`${item.icon}`}></i></li>
                                     ))}
                             </ul>
                         </div>
                     </div>
+                    </div>
+                </div>
+                <div>
+                    <a href={this.props.projectData.github} target="_blank">
+                        <button>Click for code</button>
+                    </a>
+                    <a href={this.props.projectData.appLink} target="_blank">
+                        <button>Click for live App</button>
+                    </a>
                 </div>
             </div>
         );
