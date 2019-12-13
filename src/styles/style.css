@@ -108,11 +108,12 @@
 
 .landing {
     height: 700px;;
-    background-image: url('/images/landing.jpg');
+    /*background-image: url('/images/landing.jpg');*/
     background-size: cover;
     height: 100vh;
     min-height: 200px;
     text-align: center;
+    background-color: #333333;
 }
 
 .contact-icons i {
