@@ -26,7 +26,7 @@ const Landing = () => {
                         offset={-70}
                         duration={500}
                     >
-                        <i style={{position: "absolute", bottom: "0", fontSize: "60px"}} className="angle double down icon"></i>
+                        <i className="angle double down icon arrow-down"></i>
                     </Link>
                 </div>
 

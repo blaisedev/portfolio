@@ -147,6 +147,12 @@ ul {
     list-style-type: none;
 }
 
+.arrow-down {
+    position: absolute;
+    bottom: 20px;
+    font-size: 60px;
+}
+
 @media only screen and (max-width: 767px) {
     .ui.massive.menu {
         font-size: 60%;
@@ -157,5 +163,15 @@ ul {
         max-height: 80%;
         position: fixed;
         top: 10%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .arrow-down{
+        bottom: 40px;
+        font-size: 40px;
+    }
+    .animated-name{
+        font-size: 40px;
     }
 }
